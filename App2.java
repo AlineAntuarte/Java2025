@@ -9,14 +9,29 @@ public class App2 {
         // Operador de atribuição: =
         // Operadores aritméticos: +, -, /, *, % (mod)
 
-        double a = 10;
-        double b = 3;
+        /*
+         * int a = 1;
+         * int b = 2;
+         * 
+         * double resultado = a / (double) b;
+         * 
+         * System.out.println(resultado);
+         * System.out.printf("%.4f \n",resultado);
+         */
 
-        double resultado = a / b;
+        int a = 1;
+        int b = 2;
+        /* a = a + 1;
+        a += 1;
+        a++;
+        a--; */
 
-        System.out.println(resultado);
-        System.out.printf("%.4f \n",resultado);
-        
+        if (a == 1 && b == 2){
+            System.out.println("Entrou no if");
+        }else{
+            System.out.println("Entrou no else");
+        }
+
         teclado.close();
     }
 }
