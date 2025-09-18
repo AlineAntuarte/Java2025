@@ -17,20 +17,35 @@ public class App2 {
          * 
          * System.out.println(resultado);
          * System.out.printf("%.4f \n",resultado);
-         */
+         
 
         int a = 1;
         int b = 2;
-        /* a = a + 1;
-        a += 1;
-        a++;
-        a--; */
+        
+         * a = a + 1;
+         * a += 1;
+         * a++;
+         * a--;
+         */
+        System.out.println("Insira um número: ");
+         int num = teclado.nextInt();
 
-        if (a == 1 && b == 2){
-            System.out.println("Entrou no if");
+        if (num == 1) {
+            System.out.println("Um");
+        }else if (num == 2) {
+            System.out.println("Dois");
+        }else if (num == 3) {
+            System.out.println("Três");
+        }else if (num == 4) {
+            System.out.println("Quatro");
         }else{
-            System.out.println("Entrou no else");
+            System.out.println("O número inserido não é 1, 2, 3 e nem 4.");
         }
+
+
+
+
+
 
         teclado.close();
     }
